@@ -1,0 +1,39 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = crlf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+# Delphi/Pascal files
+[*.{pas,dpr,dpk}]
+indent_style = space
+indent_size = 2
+charset = utf-8
+
+# Delphi Form files
+[*.dfm]
+indent_style = space
+indent_size = 2
+charset = utf-8
+
+# Delphi Project files
+[*.{dproj,dof}]
+indent_style = space
+indent_size = 2
+
+# Resource files
+[*.res]
+charset = unset
+end_of_line = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
